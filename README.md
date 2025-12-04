@@ -27,20 +27,6 @@ Enter the article text into the web application
 Click the "Analyze" button
 View the classification result (Real or Fake)
 
-Project Structure
-Fake-News-Detector/
-├── app.py                          # Streamlit web application
-├── train_model.py                  # Model training script
-├── train.csv                       # Training dataset
-├── fake_news_model.pkl             # Basic trained model
-├── vectorizer.pkl                  # Basic TF-IDF vectorizer
-├── enhanced_model_multi.pkl        # Enhanced multi-class model
-├── enhanced_vectorizer_multi.pkl   # Enhanced vectorizer
-├── feature_names.pkl               # Feature names from vectorization
-├── fake-news.zip                   # Compressed dataset
-└── README.md                       # This file
-
-
 Model Details
 Training Data
 
@@ -51,7 +37,7 @@ Approach
 
 Text Preprocessing: Clean and prepare text data
 Vectorization: Convert text to numerical features using TF-IDF
-Classification: Train machine learning models (e.g., Naive Bayes, Logistic Regression)
+Classification: Using logical regression
 Serialization: Save models for production use
 
 Models Included
